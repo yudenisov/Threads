@@ -3,6 +3,7 @@
     <Product Id="83C56972-23E7-4235-B620-31D22B01BEB8" Name="Thread Utils" Language="1033" Version="0.0.0.1" Manufacturer="New Internet Technologies Inc." UpgradeCode="5DC442B6-74F9-4116-9D98-6B4D6525F069">
         <Package Description="Thread Utils Setup" Comments="Thread Utils Setup" InstallerVersion="200" Compressed="yes" />
         <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
+      <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
         <Directory Id="TARGETDIR" Name="SourceDir">
             <Directory Id="UTIL" Name="Util">
                 <Component Id="BLAT.DLL" DiskId="1" Guid="0039691E-562A-40A4-A1C1-C0B7554CC70E">
