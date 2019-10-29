@@ -11,7 +11,7 @@ AllowCancelDuringInstall=yes
 ArchitecturesAllowed=x86 x64
 Compression=lzma2/max
 DefaultDirName={%UTIL|c:\Util}
-MinVersion=0,5.01.2600sp3
+MinVersion=0,6.0
 SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
@@ -38,7 +38,7 @@ SolidCompression=True
 Source: "*.exe"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "*.dll"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "*.lib"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
-Source: "*.cnf"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
+;Source: "*.cnf"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "*.h"; DestDir: "{app}\Util"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 ;Source: "*.reg"; DestDir: "{app}\Util"; Attribs: hidden; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: descript.ion; DestDir: "{app}\Util"; Attribs: hidden; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace

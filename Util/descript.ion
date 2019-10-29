@@ -1,7 +1,5 @@
 cmdow.exe -- Программа для управления окнами и запуском оконных приложений (в том числе экрана консоли) смотри список параметров с опцией /?\nВ
 gbmail.exe -- CLI SMTP Client\nВ
-nc.exe -- NetCat - <<swith knife>> for TCPIP Protocol (32 bit) See documentation in Internet.\nВ
-nc64.exe -- NetCat - <<swith knife>> for TCPIP Protocol (64 bit) See documentation in Internet.\nВ
 blat.exe -- CLI SMTP Client (None Secury). See documentation at Internet\nВ
 SwithMail.exe -- CLI SMTP Client. See documentation at Internet.\nВ
 wget64.exe -- New WGET (64-bit) with Threads\nВ
