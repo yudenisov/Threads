@@ -3,50 +3,44 @@
     <Product Id="83C56972-23E7-4235-B620-31D22B01BEB8" Name="Thread Utils" Language="1033" Version="0.0.0.1" Manufacturer="New Internet Technologies Inc." UpgradeCode="5DC442B6-74F9-4116-9D98-6B4D6525F069">
         <Package Description="Thread Utils Setup" Comments="Thread Utils Setup" InstallerVersion="200" Compressed="yes" />
         <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
-      <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
+        <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
         <Directory Id="TARGETDIR" Name="SourceDir">
             <Directory Id="UTIL" Name="Util">
                 <Component Id="BLAT.DLL" DiskId="1" Guid="0039691E-562A-40A4-A1C1-C0B7554CC70E">
-                    <File Id="BLAT.DLL" Name="blat.dll" Source="D:\yudenisov\GitHub\Threads\Util\blat.dll" />
+                    <File Id="BLAT.DLL" Name="blat.dll" Source="Util\blat.dll" />
                 </Component>
                 <Component Id="BLAT.EXE" DiskId="1" Guid="4AD7BB90-57E0-4052-9359-BD1770698BE0">
-                    <File Id="BLAT.EXE" Name="blat.exe" Source="D:\yudenisov\GitHub\Threads\Util\blat.exe" />
+                    <File Id="BLAT.EXE" Name="blat.exe" Source="Util\blat.exe" />
                 </Component>
                 <Component Id="BLAT.LIB" DiskId="1" Guid="C4EF5764-8361-4FED-9FFD-3DBD0AEDABAA">
-                    <File Id="BLAT.LIB" Name="blat.lib" Source="D:\yudenisov\GitHub\Threads\Util\blat.lib" />
+                    <File Id="BLAT.LIB" Name="blat.lib" Source="Util\blat.lib" />
                 </Component>
                 <Component Id="BLATDLL.H" DiskId="1" Guid="0BF923D3-67FB-4136-B5FC-A04196A1C566">
-                    <File Id="BLATDLL.H" Name="blatdll.h" Source="D:\yudenisov\GitHub\Threads\Util\blatdll.h" />
+                    <File Id="BLATDLL.H" Name="blatdll.h" Source="Util\blatdll.h" />
                 </Component>
                 <Component Id="CMDOW.EXE" DiskId="1" Guid="B5377875-5709-40A4-8FCC-882EF866D977">
-                    <File Id="CMDOW.EXE" Name="cmdow.exe" Source="D:\yudenisov\GitHub\Threads\Util\cmdow.exe" />
+                    <File Id="CMDOW.EXE" Name="cmdow.exe" Source="Util\cmdow.exe" />
                 </Component>
                 <Component Id="DESCRIPT.ION" DiskId="1" Guid="13903DF3-6557-46A1-81D1-06A4A7D0E5A1">
-                    <File Id="DESCRIPT.ION" Name="descript.ion" Source="D:\yudenisov\GitHub\Threads\Util\descript.ion" />
+                    <File Id="DESCRIPT.ION" Name="descript.ion" Source="Util\descript.ion" />
                 </Component>
                 <Component Id="GBMAIL.EXE" DiskId="1" Guid="09BEF749-A5D6-4254-AC7C-D59B15C5672E">
-                    <File Id="GBMAIL.EXE" Name="gbmail.exe" Source="D:\yudenisov\GitHub\Threads\Util\gbmail.exe" />
+                    <File Id="GBMAIL.EXE" Name="gbmail.exe" Source="Util\gbmail.exe" />
                 </Component>
                 <Component Id="NC.EXE" DiskId="1" Guid="5AADA76D-9786-4F95-9222-638A3DD71348">
-                    <File Id="NC.EXE" Name="nc.exe" Source="D:\yudenisov\GitHub\Threads\Util\nc.exe" />
-                </Component>
-                <Component Id="NC64.EXE" DiskId="1" Guid="FAABD7ED-E633-4E75-9DF7-3A0F9066BA66">
-                    <File Id="NC64.EXE" Name="nc64.exe" Source="D:\yudenisov\GitHub\Threads\Util\nc64.exe" />
+                    <File Id="NC.EXE" Name="nc.exe" Source="Util\nc.exe" />
                 </Component>
                 <Component Id="SWITHMAIL.EXE" DiskId="1" Guid="77C12409-9693-4ED5-B13D-A58AAF880509">
-                    <File Id="SWITHMAIL.EXE" Name="SwithMail.exe" Source="D:\yudenisov\GitHub\Threads\Util\SwithMail.exe" />
-                </Component>
-                <Component Id="THREADS.ISS" DiskId="1" Guid="428333C8-052F-4A75-AA15-8B10863B2D69">
-                    <File Id="THREADS.ISS" Name="Threads.iss" Source="D:\yudenisov\GitHub\Threads\Util\Threads.iss" />
+                    <File Id="SWITHMAIL.EXE" Name="SwithMail.exe" Source="Util\SwithMail.exe" />
                 </Component>
                 <Component Id="WGET.HTML" DiskId="1" Guid="BC211B07-7C2E-431A-96CF-5B1D825D3541">
-                    <File Id="WGET.HTML" Name="wget.html" Source="D:\yudenisov\GitHub\Threads\Util\wget.html" />
+                    <File Id="WGET.HTML" Name="wget.html" Source="Util\wget.html" />
                 </Component>
                 <Component Id="WGET32.EXE" DiskId="1" Guid="DAB3F5E7-3D02-4F20-8F6C-503A84060DD7">
-                    <File Id="WGET32.EXE" Name="wget32.exe" Source="D:\yudenisov\GitHub\Threads\Util\wget32.exe" />
+                    <File Id="WGET32.EXE" Name="wget32.exe" Source="Util\wget32.exe" />
                 </Component>
                 <Component Id="WGET64.EXE" DiskId="1" Guid="AECF87B3-747A-48B5-A43B-FFADB00F38B1">
-                    <File Id="WGET64.EXE" Name="wget64.exe" Source="D:\yudenisov\GitHub\Threads\Util\wget64.exe" />
+                    <File Id="WGET64.EXE" Name="wget64.exe" Source="Util\wget64.exe" />
                 </Component>
             </Directory>
         </Directory>
@@ -59,9 +53,7 @@
             <ComponentRef Id="DESCRIPT.ION" />
             <ComponentRef Id="GBMAIL.EXE" />
             <ComponentRef Id="NC.EXE" />
-            <ComponentRef Id="NC64.EXE" />
             <ComponentRef Id="SWITHMAIL.EXE" />
-            <ComponentRef Id="THREADS.ISS" />
             <ComponentRef Id="WGET.HTML" />
             <ComponentRef Id="WGET32.EXE" />
             <ComponentRef Id="WGET64.EXE" />
