@@ -1,6 +1,0 @@
-cmdow.exe -- Программа для управления окнами и запуском оконных приложений (в том числе экрана консоли) смотри список параметров с опцией /?\nВ
-gbmail.exe -- CLI SMTP Client\nВ
-blat.exe -- CLI SMTP Client (None Secury). See documentation at Internet\nВ
-SwithMail.exe -- CLI SMTP Client. See documentation at Internet.\nВ
-wget64.exe -- New WGET (64-bit) with Threads\nВ
-wget32.exe -- New WGET (32-bit) with Threads\nВ
